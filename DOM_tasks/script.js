@@ -17,3 +17,6 @@ for (let i = 0; i < task3.length - 1; i++) {
 }
 task3[task3.length - 1].style.fontWeight = "bold";
 
+const task4 = document.querySelector(".box");
+task4.style.backgroundColor = "tomato";
+task4.textContent = "I am first box";
