@@ -1,0 +1,19 @@
+.main-header {
+  height: 200px;
+  display: flex;
+  background-color: aqua;
+  color: black;
+  justify-content: space-between;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
