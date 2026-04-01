@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import About from './Components/About'
 import {add, subtract} from './Components/Math'
+import Count from './Components/Count'
 
 const App = () => {
   console.log(add(2,3));
