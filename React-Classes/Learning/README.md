@@ -25,3 +25,8 @@ props-passing problem: parent to child 2 must be done via parent to child 1 to c
   - only call functions from react functions, not js normal functions. You can call hooks from react functional component.
 
 - We cannot re-render or update values declared in normal js variables.
+
+## UseEffect
+It is used to manage all the methods of lifecycle alone.
+Takes 2 parameters: 1. callback function 2. dependency array
+If the dependency array is empty, then it will mount only once when the page is reloaded for the first time.

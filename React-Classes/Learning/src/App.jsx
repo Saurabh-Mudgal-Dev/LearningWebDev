@@ -13,6 +13,7 @@ import ToDoList from './Hooks/ToDoList'
 import LikeButton from './Hooks/LikeButton'
 import AddToWishlist from './Hooks/AddToWishlist'
 import NotifCounter from './Hooks/NotifCounter'
+import DataFetching from './Hooks/DataFetching'
 
 const App = () => {
   console.log(add(2,3));
@@ -38,6 +39,8 @@ const App = () => {
       <LikeButton/>
       <br />
       <NotifCounter/>
+      <br />
+      <DataFetching />
     </>
   )
 }
